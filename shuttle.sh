@@ -2,7 +2,8 @@
 
 # This program "chunks" its input based on newlines in it, sending the next bit
 # of input (*without* the newlines) only when it gets a character or "EOF"
-# (zero-length read) from standard in.
+# (zero-length read) from standard in. Not being able to send newlines is
+# *giant* limitation.
 #
 # I do not call it "chunk" because, as always, "files" in unix should always be
 # seen as streams, with the amount transferred in a given operation, i.e. call
