@@ -26,5 +26,5 @@ exec 3< "$1"
 while read -N 1
 do
     read -u 3
-    echo -n "$REPLY"
+    echo -n "${REPLY}"
 done
