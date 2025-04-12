@@ -11,8 +11,7 @@
 # about controlling the *timing* of `write()`s, though it will have effects on
 # the amount of data sent in one operation.
 #
-# Think of it as a shuttle bus, albeit one that only moves data in one
-# direction.
+# Think of it as a porter who carries your data, and only goes when you say go.
 
 if test $# -ne 1
 then
